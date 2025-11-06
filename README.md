@@ -114,7 +114,3 @@ minikube stop
 ## License
 
 [MIT License](LICENSE)
-
-## Test revert main
-## test revert number 2
-## test number 3
