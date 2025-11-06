@@ -1,0 +1,24 @@
+{
+  "name": "kubernetes-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Watcher97/Kubernetes-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Watcher97/Kubernetes-Demo/issues"
+  },
+  "homepage": "https://github.com/Watcher97/Kubernetes-Demo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
