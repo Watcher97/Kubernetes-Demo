@@ -33,7 +33,7 @@ kubectl apply -f k8s/
 
 3. Get the service URL:
 ```bash
-minikube service kubernetes-demo-api --url
+minikube service kubernetes-demo-api
 ```
 
 ## Features
@@ -82,15 +82,15 @@ kubectl logs -l app=kubernetes-demo-api
 ### Building the Image
 
 ```bash
-docker build -t dennispoh/kubernetes-demo-api:latest .
-docker push dennispoh/kubernetes-demo-api:latest
+docker build -t <dockerhub name>/kubernetes-demo-api:latest .
+docker push <dockerhub name>/kubernetes-demo-api:latest
 ```
 
 ### Local Testing
 
 1. Run locally with Docker:
 ```bash
-docker run -p 3000:3000 dennispoh/kubernetes-demo-api:latest
+docker run -p 3000:3000 <dockerhub name>/kubernetes-demo-api:latest
 ```
 
 2. Test endpoints:
