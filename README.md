@@ -28,7 +28,7 @@ minikube start
 
 2. Deploy the application:
 ```bash
-kubectl apply -f k8s/
+kubectl apply -f k8s
 ```
 
 3. Get the service URL:
