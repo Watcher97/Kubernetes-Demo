@@ -23,7 +23,7 @@ Kubernetes-Demo/
 
 1. Start your local Kubernetes cluster:
 ```bash
-minikube start --driver=docker
+minikube start 
 ```
 
 2. Deploy the application:
